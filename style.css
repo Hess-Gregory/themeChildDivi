@@ -1,0 +1,31 @@
+/*
+Theme Name: Theme Hercos-Group Child Divi
+Template: Divi
+Description: Notre Theme Hercos-Group Child Divi est conçu pour tirer pleinement parti de votre site Web. ---> !! CE THÈME DOIT TOUJOURS ÊTRE ACTIVÉ. !! <--- Ce thème et le thème de Divi ne peuvent EN AUCUN CAS être supprimé pour le bon fonctionnement de votre site internet. Hercos-Group se décline de toutes responsabilités en cas de modification des thèmes et/ou des réglages par le client. 
+Tags: Hercos-Group, Divi-thème, Website, blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
+Ce thème, comme WordPress, est sous licence GPL.
+
+Author: HERCOS-Group (Theme created by Gregory HESS)
+Author URI: https://www.hercos-group.eu/
+Version: 1.1.0
+Requires at least: 5.4.1
+Tested up to: 5.4.1
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Hercos-Group
+*/
+
+/* remove border from category list view */
+
+.et_right_sidebar #main-content .container:before {
+    width:0 !important;
+}
+
+/* remove border from category list view */
+/* fixer la barre de menu hamburger en haut de page */
+@media (max-width: 980px){
+.et_fixed_nav #main-header, .et_non_fixed_nav.et_transparent_nav #main-header {
+    position: fixed !important;
+}	
+}
